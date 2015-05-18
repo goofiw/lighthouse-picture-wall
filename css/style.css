@@ -2,15 +2,47 @@ body {
   font-family: Verdana;
   font-size: 1.5em; }
 
+#sylvia {
+  background: url("../images/unfiltered_staff.jpg"); }
+  #sylvia:hover {
+    visibility: hidden; }
+
+#landon {
+  background: url("../images/unfiltered_staff.jpg") 600px 0; }
+  #landon:hover {
+    visibility: hidden; }
+
+#michael {
+  background: url("../images/unfiltered_staff.jpg") 200px 0; }
+  #michael:hover {
+    visibility: hidden; }
+
+#monica {
+  background: url("../images/unfiltered_staff.jpg") 0 450px; }
+  #monica:hover {
+    visibility: hidden; }
+
+#don {
+  background: url("../images/unfiltered_staff.jpg") 600px 450px; }
+  #don:hover {
+    visibility: hidden; }
+
+#jeremy {
+  background: url("../images/unfiltered_staff.jpg") 400px 450px; }
+  #jeremy:hover {
+    visibility: hidden; }
+
 #team-members {
-  clear: both; }
+  display: inline;
+  width: 200px;
+  height: 150px; }
   #team-members .member {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px; }
     #team-members .member img {
       width: 200px;
-      height: 200px; }
+      height: 150px; }
     #team-members .member div.name {
       text-align: center; }
 

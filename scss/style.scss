@@ -5,18 +5,61 @@ body {
   font-size: 1.5em;
 }
 
-#team-members {
-  clear: both;
+#sylvia {
+  background: url("../images/unfiltered_staff.jpg");
+  &:hover { 
+   visibility: hidden;
+  }
+}
 
+#landon {
+  background: url("../images/unfiltered_staff.jpg") 600px 0;
+  &:hover { 
+   visibility: hidden;
+  }
+}
+
+#michael {
+  background: url("../images/unfiltered_staff.jpg") 200px 0;
+  &:hover { 
+   visibility: hidden;
+  }
+}
+
+#monica {
+  background: url("../images/unfiltered_staff.jpg") 0 450px;
+  &:hover { 
+   visibility: hidden;
+  }
+}
+
+#don {
+  background: url("../images/unfiltered_staff.jpg") 600px 450px;
+  &:hover { 
+   visibility: hidden;
+  }
+}
+
+#jeremy {
+  background: url("../images/unfiltered_staff.jpg") 400px 450px;
+  &:hover { 
+   visibility: hidden;
+  }
+}
+
+#team-members {
+  display: inline;
+  width: 200px;
+  height: 150px;
+  
    .member {
     float: left;
     /*border: 1px solid gray;*/
     margin: 10px;
     
-
     img {
       width: 200px;
-      height: 200px;
+      height: 150px;
     }
 
     div.name {
